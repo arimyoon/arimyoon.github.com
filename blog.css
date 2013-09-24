@@ -57,7 +57,7 @@ hr {
 }
 
 #header .sub {
-    color: #ed177a;
+    color: #f79226;
     margin-top: 7px;
 }
 
@@ -83,7 +83,7 @@ hr {
 }
 
 #header div.nav ul li.btn_drawing {
-    background: #ed177a;
+    background: #ed177a
 }
 
 #header div.nav ul li.btn_blog {
@@ -112,7 +112,7 @@ hr {
 }
 
 .folio {
-    background: #ed177a;
+    background: #f79226;
     height: 900px;
     width: 1024px;
     margin-top: 10px;
@@ -129,7 +129,6 @@ hr {
     top: 35px;
     left: 30px;
     right: 30px;
-
 }
 
 .folio ul li {
@@ -140,6 +139,7 @@ hr {
     margin-right: 5px;
     height: 270px;
     width: 304px;
+    align: center;
 
 }
 
