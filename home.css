@@ -52,6 +52,7 @@ h1, h2 {
 
 
 .flower	{
+	position:relative;
 	width:304px;
 	height:270px;
 	float:left;
@@ -62,6 +63,7 @@ h1, h2 {
 	list-style : none;
 	}
 .cloud	{
+	position:relative;
 	width:304px;
 	height:270px;
 	float:left;
@@ -72,6 +74,7 @@ h1, h2 {
 	list-style : none;
 	}
 .pen	{
+	position:relative;
 	width:304px;
 	height:270px;
 	float:left;
@@ -84,14 +87,34 @@ h1, h2 {
 
 
 .text 	{
+	
 	width : 254px;
 	height: 220px;
 	border-style: solid;
 	border-color: #000;
 	border-width: 6px;
 	padding: 25px;
-	margin: 5px;	
+	margin-top: 10px;
+	margin-left: -5px;	
 	display:none
+	}
+.clickline {
+	position:absolute;
+	top:500px;
+	bottom:5px;
+	border-style:solid;
+	border-color:#000;
+	border-width:3px;
+	border-radius:3px;
+	align: center;
+	width: 250px;
+	}
+.click {
+	position:absolute;
+	top:520px;
+	bottom:5px;
+	align: center;
+	width: 250px;
 	}
 
 
