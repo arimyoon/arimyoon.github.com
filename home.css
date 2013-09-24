@@ -207,6 +207,27 @@ h1, h2 {
 	text-decoration : none;
 	list-style : none;
 	}
+.selected1 	{
+	float:left;
+	margin-bottom:0px;
+	margin-left:10px;
+	margin-right:10px;
+	left: 690px;
+	top: 65px;
+	width:70px;
+	height:70px;
+	border-style:solid;
+	border-color: #000;
+	border-width:6px;
+	background-color:#53a4da;
+	list-style : none;
+	border-radius:50px;
+	text-align:center;
+	line-height:70px;
+	text-decoration : none;
+	list-style : none;
+	}
+
 
 a:link	{
 	color: #000;

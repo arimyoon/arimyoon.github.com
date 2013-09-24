@@ -44,7 +44,7 @@ h1, h2 {
 	}
 
 #folio 	{
-	background-color: #ed177a;
+	background-color: #f7f7f7;
 	width : 1024px;
 	height: 900px;
 	padding: 35px;
@@ -95,7 +95,8 @@ h1, h2 {
 	border-width: 6px;
 	padding: 25px;
 	margin-top: 10px;
-	margin-left: -5px;	
+	margin-left: -5px;
+	background-color: #ed177a;
 	display:none
 	}
 .clickline {
@@ -204,6 +205,25 @@ h1, h2 {
 	border-radius:50px;
 	line-height:70px;
 	text-align:center;
+	text-decoration : none;
+	list-style : none;
+	}
+.selected2 	{
+	float:left;
+	margin-bottom:0px;
+	margin-right:10px;
+	left: 690px;
+	top: 65px;
+	width:70px;
+	height:70px;
+	border-style:solid;
+	border-color: #000;
+	border-width:6px;
+	background-color:#ed177a;
+	list-style : none;
+	border-radius:50px;
+	text-align:center;
+	line-height:70px;
 	text-decoration : none;
 	list-style : none;
 	}
