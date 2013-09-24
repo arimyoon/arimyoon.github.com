@@ -1,56 +1,84 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<!--[if It IE 9]> 
-		<script src ="js/html5shiv.js"></script>
-		<![endif]-->
-		<script src="js/libs/json2.js"></script>
-		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script type="text/javascript">$(document).ready(function () {
-		$("#folio ul li").hover(function() { $(this).find("div").show(); }, function() { $(this).find("div").hide()})
-		} ) ; 
-		</script>
-		<title> Arim Yoon </title>
-		<link type="text/css" rel="stylesheet" href="drawing.css">	
-	</head>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <!--[if It IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="./Arim Yoon_files/json2.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="home.css"/>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".folio ul li").hover(function () {
+                    $(this).find("div").show();
+                }, function () {
+                    $(this).find("div").hide()
+                })
+            });
+        </script>
+        <title> Arim Yoon </title>
+        <link type="text/css" rel="stylesheet" href="drawing.css">
+    </head>
 <body>
 <div id="allContent">
-
-	<div id ="header">
-		<h1 class="logo"><img src="logo.jpg"></h1>
-		<h2 class="sub">drawing</h2>
-	
-<div class="nav">
-	
-		<li><a class="bold" href="./index.html"><span>PJ</span></a></li>
-		<li class="selected2"><a href="./drawing.html"></a></li>		
-		<li><a class="bold2" href="./blog.html"><span>BLG</span></a></li>
-		<li><a class="bold3" href="./profile.html"><span>CV</span></a></li>
-	</div></div>
-	<article>	
-		<section>
-			<div id="folio">
-			<ul>
-		  	  <li class="flower"><img src="img1.jpg">
-			  <div class="text"> 2012<br>flower illustrations
-				<div class="clickline"> </div>
-				<div class="click"> click! </div></li>       	
-			  <li class="cloud"><img src="img2.jpg">
-			  <div class="text"> 2012<br>SomCloud 
-				<div class="clickline"> </div>
-				<div class="click"> click! </div></li>  		
-			  <li class="pen"><img src="img3.jpg">
-			  <div class="text"> 2012<br>SomPen 
-				<div class="clickline"> </div>
-				<div class="click"> click! </div></li>    
-			</ul>
-			</div>
-			<div id="footer"> Copyright © Arim Yoon. All rights reserved.
-			</div>
-		<section>
-	</article>
+    <div id="header">
+        <h1 class="logo">ARIM YOON</h1>
+        <h2 class="sub">DRAWING</h2>
+        <div class="nav">
+            <ul>
+                <li class="btn_index"><a class="" href="http://arimyoon.github.io/index.html"><span>PJ</span></a></li>
+                <li class='btn_drawing active'></li>
+                <li class='btn_blog'><a class="" href="http://arimyoon.github.io/blog.html"><span>BLG</span></a></li>
+                <li class='btn_profile'><a class="" href="http://arimyoon.github.io/profile.html"><span>ME</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <article class='clear folio'>
+        <section>
+            <div class='folio_wrap'>
+                <div class="ul_wrap">
+                <ul>
+                    <li>
+                        <img src='http://arimyoon.github.io/img1.jpg' />
+                        <div class='text'>
+                            <p>2012</p>
+                            <p class='description'>flower illustrations</p>
+			<div class='bottom'>                           
+                            <div class='hr'></hr></div>
+                            <div class='click'> click! </div>
+                        </div></div>
+                    </li>
+                    <li>
+                        <img src='http://arimyoon.github.io/img2.jpg' />
+                        <div class='text'>
+                            <p>2012</p>
+                            <p class='description'>SomCloud<br>lala</p>                    
+                        			<div class='bottom'>                           
+                            <div class='hr'></hr></div>
+                            <div class='click'> click! </div>
+                        </div></div>
+                    </li>
+                    <li>
+                        <img src='http://arimyoon.github.io/img3.jpg' />
+                        <div class='text'>
+                            <p>2013</p>
+                            <p class='description'>SomPen</p>
+    			<div class='bottom'>                           
+                            <div class='hr'></hr></div>
+                            <div class='click'> click! </div>
+                        </div></div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>Copyright © Arim Yoon. All rights reserved.</footer>
 </div>
+
+
+
 </body>
 </html>
-	
