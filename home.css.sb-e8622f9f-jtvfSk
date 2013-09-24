@@ -82,7 +82,7 @@ hr {
     background: #53a4da;
 }
 
-#header div.nav ul li.btn_drawing {
+#header div.nav ul li.btn_project {
     background: #ed177a
 }
 

@@ -29,7 +29,7 @@
         <div class="nav">
             <ul>
                 <li class='btn_index active'></li>
-                <li class='btn_drawing'><a class="" href="drawing.html"><span>DW</span></a></li>
+                <li class='btn_project'><a class="" href="http://arimyoon.github.io/drawing.html"><span>DW</span></a></li>
                 <li class='btn_blog'><a class="" href="http://arimyoon.github.io/blog.html"><span>BLG</span></a></li>
                 <li class='btn_profile'><a class="" href="http://arimyoon.github.io/profile.html"><span>ME</span></a></li>
             </ul>
