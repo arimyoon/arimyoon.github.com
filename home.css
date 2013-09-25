@@ -4,16 +4,24 @@ body, div, span, ul, li, dd, dt, img, tbody, td, tfoot, th, thead, tr, h1, h2, p
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
 
 }
-
 @font-face {
-    font-family: "multicolore";
-    src: url("http://arimyoon.github.io/Multicolore.eot");
+    font-family: multicolore;
+    src: url(Multicolore.eot);
 }
 
 body {
     background-color: #f7f7f7;
     padding: 10px;
-    font-family: multicolore, helvetica, sans-serif;
+	font-family: multicolore, sans-serif;
+    font-size: 28px;
+}
+
+
+body {
+    background-color: #f7f7f7;
+    padding: 10px;
+    font-family: "multicolore", sans-serif; 
+    font-weight: 400;
     font-size: 28px;
 
 }
@@ -25,6 +33,7 @@ li {
 h1, h2 {
     font-size: 28px;
 }
+
 
 hr {
     display: none;

@@ -6,17 +6,17 @@ body, div, span, ul, li, dd, dt, img, tbody, td, tfoot, th, thead, tr, h1, h2, p
 }
 
 @font-face {
-    font-family: "multiculore";
-    src: url("multicolore.otf");
+    font-family: multicolore;
+    src: url(Multicolore.eot);
 }
 
 body {
     background-color: #f7f7f7;
     padding: 10px;
-    font-family: multicolore, helvetica, sans-serif;
+	font-family: multicolore, sans-serif;
     font-size: 28px;
-
 }
+
 
 li {
     list-style: none;
