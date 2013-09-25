@@ -113,7 +113,7 @@ hr {
 
 .folio {
     background: #53a4da;
-    height: 900px;
+    height: 1200px;
     width: 1024px;
     margin-top: 10px;
     position: relative;
@@ -126,14 +126,12 @@ hr {
 }
 
 .folio ul li {
-    cursor: pointer; 
     float: left;
     position: relative;
     margin-right: 5px;
     height: 270px;
     width: 304px;
     align: center;
-
 }
 .folio ul li .text {
     float: left;
@@ -144,7 +142,6 @@ hr {
     width: 304px;
     background: #53a4da;
     top: 0px;
-
 }
 
 .folio ul li .text p {
@@ -165,7 +162,6 @@ hr {
     background: #3353a4da;
     top: 0px;
     color: #fff;
-
 }
 .folio ul li .detail p {
     margin-top: 25px;
@@ -177,7 +173,23 @@ hr {
     margin-top: 0px;
     font-color: #fff;
 }
+.folio .view {
+    background: #000;
+    height: 860px;
+    width: 960px;
+    top: 310px;
+    left:30px;
+    margin-top: 20px;
+    position: relative;
 
+}
+.view ul li {
+    position: relative;
+    background: #000;
+    width: 900px;
+    margin-top: 20px;
+    align: center;
+}
 
 footer {
     font-size: 10px;
