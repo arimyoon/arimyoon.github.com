@@ -1,0 +1,190 @@
+body, div, span, ul, li, dd, dt, img, tbody, td, tfoot, th, thead, tr, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+
+}
+
+@font-face {
+    font-family: "multiculore";
+    src: url("multicolore.otf");
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 10px;
+    font-family: multicolore, helvetica, sans-serif;
+    font-size: 28px;
+
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2 {
+    font-size: 28px;
+}
+
+hr {
+    display: none;
+}
+
+.hr {
+    width: 250px;
+    margin-left: 22px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+#allContent {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 75px;
+    position: relative;
+    margin-top: 70px;
+    width: 1024px;
+}
+
+#header .logo {
+    background: url("http://arimyoon.github.io/logo.jpg") no-repeat;
+    height: 39px;
+    width: 198px;
+    text-indent: -9999px;
+}
+
+#header .sub {
+    color: #53a4da;
+    margin-top: 7px;
+}
+
+#header div.nav {
+    position: absolute;
+    right: 26px;
+    top: -8px;
+}
+
+#header div.nav ul li {
+    float: left;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 75px;
+    margin-right: 10px;
+}
+
+#header div.nav ul li.btn_index {
+    background: #53a4da;
+}
+
+#header div.nav ul li.btn_drawing {
+    background: #ed177a
+}
+
+#header div.nav ul li.btn_blog {
+    background: #f79226;
+}
+
+#header div.nav ul li.btn_profile {
+    background: #f2e77e;
+}
+
+#header div.nav ul li a {
+    height: 63px;
+    width: 63px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#header div.nav ul li a:hover {
+    border: 6px solid black;
+    line-height: 63px;
+}
+
+#header div.nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.folio {
+    background: #53a4da;
+    height: 900px;
+    width: 1024px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.folio .ul_wrap {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+
+.folio ul li {
+    cursor: pointer; 
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    height: 270px;
+    width: 304px;
+    align: center;
+
+}
+.folio ul li .text {
+    float: left;
+    position: relative;
+    border: 6px solid black;
+    margin-right: 5px;
+    height: 270px;
+    width: 304px;
+    background: #53a4da;
+    top: 0px;
+
+}
+
+.folio ul li .text p {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.folio ul li .text p.description {
+    margin-top: 0px;
+}
+
+.folio ul li .detail {
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    height: 270px;
+    width: 640px;
+    background: #3353a4da;
+    top: 0px;
+    color: #fff;
+
+}
+.folio ul li .detail p {
+    margin-top: 25px;
+    margin-left: 35px;
+    font-color:#fff;
+}
+
+.folio ul li .detail p.description {
+    margin-top: 0px;
+    font-color: #fff;
+}
+
+
+footer {
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
