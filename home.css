@@ -6,8 +6,8 @@ body, div, span, ul, li, dd, dt, img, tbody, td, tfoot, th, thead, tr, h1, h2, p
 }
 
 @font-face {
-    font-family: "multiculore";
-    src: url("Multicolore.eot");
+    font-family: "multicolore";
+    src: url("http://arimyoon.github.io/Multicolore.eot");
 }
 
 body {
