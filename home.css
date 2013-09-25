@@ -140,7 +140,8 @@ hr {
     position: relative;
     border: 6px solid black;
     margin-right: 5px;
-    margin-top:40px;
+    margin-top:0px;
+    margin-bottom:40px;
     height: 270px;
     width: 304px;
 
