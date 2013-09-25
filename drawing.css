@@ -83,7 +83,7 @@ hr {
 }
 
 #header div.nav ul li.btn_drawing {
-    background: #ed177a;
+    background: #ed177a
 }
 
 #header div.nav ul li.btn_blog {
@@ -129,19 +129,18 @@ hr {
     top: 35px;
     left: 30px;
     right: 30px;
-
 }
 
 .folio ul li {
     cursor: pointer; 
     float: left;
-    background: #fff;
     position: relative;
     border: 6px solid black;
     margin-right: 5px;
     height: 270px;
     width: 304px;
     align: center;
+
 }
 
 .folio ul li .text {
