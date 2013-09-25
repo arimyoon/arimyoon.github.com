@@ -7,7 +7,7 @@ body, div, span, ul, li, dd, dt, img, tbody, td, tfoot, th, thead, tr, h1, h2, p
 
 @font-face {
     font-family: "multiculore";
-    src: url("/Users/arimnim/Dropbox/hpg/multicolore.otf");
+    src: url("multicolore.otf");
 }
 
 body {
@@ -135,12 +135,13 @@ hr {
 .folio ul li {
     cursor: pointer; 
     float: left;
+    background: #fff;
     position: relative;
     border: 6px solid black;
     margin-right: 5px;
     height: 270px;
     width: 304px;
-
+    align: center;
 }
 
 .folio ul li .text {

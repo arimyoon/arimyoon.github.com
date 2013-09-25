@@ -120,6 +120,7 @@ hr {
 }
 
 .folio .ul_wrap {
+
     position: absolute;
     top: 35px;
     left: 30px;
@@ -174,20 +175,22 @@ hr {
     font-color: #fff;
 }
 .folio .view {
+    border: 6px solid black;
     background: #000;
-    height: 860px;
-    width: 960px;
+    height: 840px;
+    width: 950px;
     top: 310px;
     left:30px;
-    margin-top: 20px;
+    margin-top: 0px;
     position: relative;
 
 }
+
 .view ul li {
     position: relative;
     background: #000;
     width: 900px;
-    margin-top: 20px;
+    margin-top: 0px;
     align: center;
 }
 
